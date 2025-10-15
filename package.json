@@ -1,0 +1,33 @@
+{
+  "name": "@da440dil/rset",
+  "version": "0.0.0",
+  "description": "Redis sorted set with size limit within time frame",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:coverage": "jest --runInBand --coverage",
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint --ext .ts src",
+    "file": "ts-node"
+  },
+  "keywords": [
+    "redis",
+    "sorted set"
+  ],
+  "author": "Anatoly Demidovich",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "@types/jest": "^30.0.0",
+    "ioredis": "^5.8.1",
+    "jest": "^30.2.0",
+    "redis": "^5.8.3",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.0"
+  }
+}
